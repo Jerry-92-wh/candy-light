@@ -18,7 +18,6 @@
  * @package WordPress
  */
 
-
 define('WP_SITEURL', 'http://candy-light.devriesgvr.nl/');
 define('WP_HOME', 'http://candy-light.devriesgvr.nl/');
 
