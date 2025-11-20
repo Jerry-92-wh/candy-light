@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The base configuration for WordPress
  *
@@ -33,6 +34,9 @@
 
 /** Database charset to use in creating database tables. */
 // define( 'DB_CHARSET', 'utf8' );
+
+define('WP_SITEURL', 'http://candy-light.devriesgvr.nl/');
+define('WP_HOME', 'http://candy-light.devriesgvr.nl/');
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -85,7 +89,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
