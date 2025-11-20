@@ -1,0 +1,7 @@
+# Ignore uploads and cache
+wp-content/uploads/
+wp-content/cache/
+
+# Ignore sensitive config
+wp-config.php
+.htaccess
